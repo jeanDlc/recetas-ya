@@ -112,6 +112,10 @@ function BottomTabNavigator() {
               />
             </Pressable>
           ),
+          headerTitleStyle: {
+            color: Colors[colorScheme].text,
+            fontWeight: "bold",
+          },
         })}
       />
       <BottomTab.Screen
@@ -122,6 +126,10 @@ function BottomTabNavigator() {
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="cupcake" size={24} color={color} />
           ),
+          headerTitleStyle: {
+            color: Colors[colorScheme].text,
+            fontWeight: "bold",
+          },
         }}
       />
     </BottomTab.Navigator>

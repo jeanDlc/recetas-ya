@@ -1,0 +1,70 @@
+[
+  {
+    "nombre": "Arroz zambito",
+    "img": "https://comidasperuanas.net/wp-content/uploads/2018/12/Arroz-zambito.jpg",
+    "descripcion": "El arroz zambito es un postre peruano típico de la gastronomía limeña y derivado del arroz con leche. Su principal diferencia respecto a este último es que al arroz zambito se le añade chancaca. En el siglo XIX era ofrecido por vendedores ambulantes, generalmente afroperuanas",
+    "ingredientes": [
+      "3 1/2 Tazas de Agua",
+      "1 1/4 Taza de Arroz largo",
+      "2 Unidades de Clavo de olor",
+      "1 Bastón de Canela",
+      "1/8 Bola de Chancaca",
+      "1 Lata de leche condensada",
+      "1/2 Lata de LECHE CONDENSADA NESTLÉ",
+      "1/3 Taza de Pasas Rubias",
+      "2 Cucharaditas de Coco rallado"
+    ],
+    "instrucciones": [
+      "Colocar en una olla 3 tazas de agua, el arroz, la canela y el clavo de olor. Cocinar hasta que se reduzca el agua y reviente el grano. Retirar del fuego y sacarle la canela y el clavo. Reservar.",
+      "En otra olla, derretir la chancaca con ½ taza de agua fría y hacer una miel ligera. Incorporarla al arroz y mezclar bien con la ayuda de un tenedor.",
+      "Agregar 1 lata de leche condensada, 1/2 lata de LECHE CONDENSADA NESTLÉ®, las pasas y el coco. Cocinar por 2 minutos y retirar del fuego. Servir en una copa y espolvorear canela."
+    ]
+  },
+  {
+    "nombre": "Arroz con leche",
+    "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2018%2F03%2F25%2Frecetas-1092-arroz-con-leche-2000.jpg&q=85",
+    "descripcion": "El arroz con leche es un postre típico de la gastronomía de múltiples países hecho cociendo lentamente arroz con leche y azúcar. Se sirve frío o caliente. Se le suele espolvorear canela, vainilla o cáscara de limón para aromatizarlo",
+    "ingredientes": [
+      "2 1/2 Tazas Agua",
+      "1 Bastón Canela",
+      "2 Clavos De Olor",
+      "2 Tazas Arroz Largo",
+      "0 1/2 Cucharadita Extracto De Vainilla",
+      "1 Lata IDEAL CREMOSITA",
+      "1 Lata de LECHE CONDENSADA NESTLÉ",
+      "50 Gramos Pasas Sin Semillas",
+      "1 Cucharadita Canela en polvo"
+    ],
+    "instrucciones": [
+      "Colocar en una olla el agua, luego agregar la canela y el clavo de olor. Añadir el arroz y llevar al fuego medio para que se cocine. Recuerda lavar el arroz",
+      "Mover con la ayuda de un tenedor para evitar romper los granos de arroz. Cuando esté cocido y el agua se haya consumido, retirar la canela y el clavo de olor.",
+      "Echar la esencia de vainilla, la Ideal Cremosita y la leche condensada Nestlé.Cocinar a fuego medio entre a 5 a 8 minutos. Hasta que veamos que ya no está tan ligera la consistencia.",
+      "Colocar pasas, decorar con canela al gusto y servir."
+    ]
+  },
+  {
+    "nombre": "Mazamorra morada",
+    "img": "https://www.comida-peruana.com/base/stock/Recipe/128-image/128-image_web.jpg",
+    "descripcion": "Fue el resultado del consumo milenario del api morado, luego de fusionarse los gustos americanos y europeos por los mestizos e indígenas peruanos, aunque el maíz morado se sigue cultivando en el sur",
+    "ingredientes": [
+      "2 kilos de maíz morado",
+      "1 Piña",
+      "Azúcar al gusto",
+      "10 cucharadas de harina de chuño (maicena o harina de camote)",
+      "Jugo de 3 limones",
+      "1 manzana",
+      "1 membrillo",
+      "1 piña",
+      "2 melocotones o duraznos",
+      "1/4 de guindones",
+      "200 gramos de harina de camote",
+      "Canela entera, canela molida y clavitos de olor"
+    ],
+    "instrucciones": [
+      "En una olla se pone a cocer el maìz morado, previamente lavado y en parte desgranado, cuando esté bien cocido se cuela el líquido con una coladera fina y luego se le agrega más agua hasta que complete los tres litros. Luego se vuelve a colar y se pone el líquido al fuego.",
+      "Agregue el azúcar, el clavo de olor, la canela entera (uno o dos ramitos), la piña, los membrillos, los peros, los melocotones, los orejones picados en trocitos; las guinditas, los huesillos, y guindones bien lavados.",
+      "Dejar cocer bien y luego añadir el chuño diluido en un poquito de agua fría o maicena o si es mejor harina de camote. Una vez que esta a punto vertir el jugo de los limones y dejar que hierva nuevamente sin dejar de mover, es fácil reconocer cuando el dulce esta a punto ya que en ese momento permite ver el fondo de la olla cuando se va moviendo.",
+      "Finalmente se espera que este delicioso postre se enfríe, se vacía en dulceras y se sirve espolvoreado con canela molida."
+    ]
+  }
+]

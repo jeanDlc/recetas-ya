@@ -1,0 +1,84 @@
+[
+  {
+    "nombre": "Arroz con pollo",
+    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/XILY4GPXQJERRANM4TTVYILZXI.png",
+    "descripcion": "El arroz con pollo es un plato típico de América Latina y España ​ con variaciones regionales según el país. Consiste en arroz cocinado con pollo, en presas o desmechado, verduras, y sazonado con especias",
+    "ingredientes": [
+      "1 1/2 taza de hojas de cilantro",
+      "4 hojas de espinaca",
+      "4 piernas y muslos de pollo, sin piel",
+      "Sal y pimienta",
+      "1/4 de taza de aceite vegetal",
+      "1 taza de cebolla picada fina",
+      "1 cucharada de ajo picado",
+      "1/2 taza de pasta de ají",
+      "1 taza de cerveza",
+      "2 tazas de caldo de pollo",
+      "1 taza de aceite vegetal",
+      "2 tazas de arroz de grano largo",
+      "1/4 taza de alverjitas (petit pois, chícharos)",
+      "1/4 taza de zanahoria cortada en cubitos",
+      "1/2 pimiento rojo, cortado en",
+      "1 taza de maíz blanco",
+      "Salsa Criolla"
+    ],
+    "instrucciones": [
+      "En una licuadora, licúa cilantro junto con la espinaca y agua como para hacer una pasta homogénea. Reserva.",
+      "Seca el pollo con papel toalla y sazona con sal y pimienta. En una olla se calienta el aceite a fuego medio y se fríe el pollo hasta que esté dorado por ambos lados, unos 7 minutos. Retira de la olla y ponlo en un plato",
+      "En la misma olla fríe la cebolla, ajo y la pasta de ají amarillo, revolviendo por 5 minutos. Incorpora el cilantro y espinaca licuado, fríe por 3 minutos. Agrega la cerveza, caldo de pollo, y agrega el pollo en la olla.",
+      "Hierve, tapa y baja el fuego. Cuece por 20 minutos. Corrige la sazón con más sal y pimienta si fuera necesario.",
+      "En otra olla calienta 1 cucharada de aceite. Incorpora el arroz y revuélvelo bien. Agrega las alverjitas, zanahorias, pimiento, maíz, y 3 1/2 tazas del caldo que utilizaste para cocinar el pollo. Deja que rompa hervor, tapa, baja el fuego al mínimo y deja cocer por 20 a 25 minutos. Revuelve con un tenedor y volver a tapar",
+      "Cuando el arroz esté a punto, servir en cuatro platos, poner encima una pierna de pollo y Salsa Criolla al costado. Si quieren también un poco del juguito en el que se coció el pollo.",
+      "Para hacer la Salsa Criolla, corta 1/2 cebolla roja en láminas muy delgadas a lo largo, lava bien y escurre. Mezcla con 1/2 tomate cortado en tiras muy finas, hojas de cilantro, sal, pimienta, jugo de 1 limón y 1 cucharada de aceite de oliva. Si desean le pueden agregar tiritas de ají."
+    ]
+  },
+  {
+    "nombre": "Pollo a la brasa",
+    "img": "https://jameaperu.com/wp-content/uploads/2019/08/pollo-a-la-brasa_700x467.jpg",
+    "descripcion": "Pollo a la brasa es la denominación que se da en el Perú al pollo asado al carbón, a la leña o a gas en un sistema rotatorio.​ Es considerado un platillo típico de la gastronomía peruana y uno de los de mayor consumo",
+    "ingredientes": [
+      "1 pollo entero sin vísceras",
+      "2 cucharadas soperas de sal",
+      "1 cucharadita de comino",
+      "1 cucharadita de pimienta",
+      "2 cucharadas de vinagre blanco",
+      "1 taza de cerveza negra",
+      "1 cucharada de orégano seco",
+      "2 cucharadas de ajo molido",
+      "1 cucharada de ají panca molido",
+      "1 cucharada de romero seco",
+      "2 cucharadas de sillao"
+    ],
+    "instrucciones": [
+      "En un recipiente del tamaño suficiente coloca todos los ingredientes para realizar la marinada. Vierte el vinagre, la cerveza, el orégano, el romero, el ají panca, el ajo molido, el comino, la pimienta, el sillao y la sal. Mezcla todo muy bien para integrar muy bien los ingredientes.",
+      "Lava muy bien el pollo y retira los restos de grasa o plumas que pudiera tener.",
+      "Sumerge el pollo en la marinada y báñalo con esta por dentro y por fuera, con ayuda de tus dedos separa la piel de la carne para también poner un poco de la mezcla al interior.",
+      "Déjalo macerar en el refrigerador por al menos 2 horas, aunque lo ideal es 12 horas. Es por eso que es recomendable hacer este proceso la noche anterior.",
+      "Al otro día o pasado el tiempo requerido es momento de colocar el pollo en una bandeja y llevarlo al horno a 180°C por aproximadamente 1 hora y media. A mitad de cocción es recomendable darle vuelta y cuando falten 10 minutos volver a colocarlo en la posición inicial.",
+      "Verifica que esté dorado por todos lados y bien cocido. De ser así, retira y sirve el pollo entero o trozado en presas. Se suele acompañar con papas fritas y ensalada fresca."
+    ]
+  },
+  {
+    "nombre": "Lomo saltado",
+    "img": "https://decomidaperuana.com/wp-content/uploads/2020/10/lomo-saltado.jpg",
+    "descripcion": "El lomo saltado es un plato típico de la gastronomía del Perú consistente en carne de res, arroz cocido y papas fritas. Es uno de los platos más consumidos popularmente en el Perú",
+    "ingredientes": [
+      "500 gr de ternera",
+      "1 cebolla blanca o morada",
+      "1 pimiento verde italiano",
+      "1 tomate",
+      "1 cebolleta (parte verde)",
+      "1 ají amarillo",
+      "Papas fritas",
+      "Arroz de grano largo al gusto para la guarnición",
+      "1 taza de cerveza",
+      "Salsa de soja, un buen chorretón",
+      "Vinagre de manzana tres cucharadas soperas"
+    ],
+    "instrucciones": [
+      "Cortad la carne -pedid un filete grueso y tierno- en tiras y después cortadlas por la mitad para obtener tacos alargados o bastones de forma similar a que tienen las patatas fritas. Doradlos en la sartén o mejor en un wok a fuego muy vivo, para que queden muy jugosos en su interior. Reservar la carne y los jugos para más tarde.",
+      "Cortamos todas las verduras menos el tomate en trozos grandes y bastos, para que no se lleguen a pochar, ya que queremos que los trozos se vean bien dorados. Añadimos también las guindillas sin venas ni semillas. Salteamos todos esos ingredientes en el wok hasta que estén a nuestro gusto. Incorporamos el tomate cortado en gajos grandes y lo salteamos procurando que no se nos pase.",
+      "Retornamos la carne y los jugos al wok y añadimos la salsa soja y el vinagre. Seguimos salteando el conjunto mientras la salsa va espesando. Cuando empiece a burbujear, apagamos y servimos el lomo saltado procurando que en cada ración haya abundantes trozos de carne y de verduras."
+    ]
+  }
+]
