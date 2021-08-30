@@ -14,13 +14,15 @@ type RecetaProps = {
 import { Text as CustomText } from "./Themed";
 import useColorScheme from "../hooks/useColorScheme";
 import Colors from "../constants/Colors";
+import { useNavigation } from "@react-navigation/native";
 
 const Receta: FC<RecetaProps> = ({ receta }) => {
   const tema = useColorScheme();
   const tintColor = Colors[tema].tint;
+  const navigation = useNavigation();
+
   const redirect = () => {
-    //TODO: abrir una ventana modal con la receta entera
-    console.log("redirect");
+    navigation.navigate("DetalleReceta", { receta });
   };
   return (
     <>
@@ -65,6 +67,7 @@ const classes = StyleSheet.create({
     width: "100%",
     paddingVertical: 17,
     marginTop: 15,
+    borderRadius: 5,
   },
   btnText: {
     textAlign: "center",
@@ -77,7 +80,7 @@ const classes = StyleSheet.create({
     width: "100%",
     height: 1,
     backgroundColor: "#e1e1e1",
-    marginVertical: 20,
+    marginTop: 40,
   },
 });
 export default Receta;

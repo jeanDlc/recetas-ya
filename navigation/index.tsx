@@ -21,6 +21,7 @@ import ModalScreen from "../screens/ModalScreen";
 import NotFoundScreen from "../screens/NotFoundScreen";
 import PlatillosScreen from "../screens/PlatillosScreen";
 import PostresScreen from "../screens/PostresScreen";
+import DetalleReceta from "../screens/DetalleReceta";
 import {
   RootStackParamList,
   RootTabParamList,
@@ -50,6 +51,9 @@ export default function Navigation({
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function RootNavigator() {
+  const tema = useColorScheme();
+  const colorPrincipal = Colors[tema].tint;
+
   return (
     <Stack.Navigator>
       <Stack.Screen
@@ -61,6 +65,17 @@ function RootNavigator() {
         name="NotFound"
         component={NotFoundScreen}
         options={{ title: "Oops!" }}
+      />
+      <Stack.Screen
+        name="DetalleReceta"
+        component={DetalleReceta}
+        options={{
+          title: "Detalle de Receta",
+          headerStyle: {
+            backgroundColor: colorPrincipal,
+          },
+          headerTintColor: "white",
+        }}
       />
       <Stack.Group screenOptions={{ presentation: "modal" }}>
         <Stack.Screen name="Modal" component={ModalScreen} />
