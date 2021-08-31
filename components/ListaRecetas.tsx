@@ -1,9 +1,8 @@
-import * as React from "react";
+import React, { FC } from "react";
 import { StyleSheet, FlatList } from "react-native";
-import { View, Text } from "../components/Themed";
+import { View } from "../components/Themed";
 import Receta from "../components/Receta";
 import { Receta as IReceta } from "../interfaces";
-import { FC } from "react";
 type PropsListaRecetas = {
   recetas: IReceta[];
 };
