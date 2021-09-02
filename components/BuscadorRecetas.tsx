@@ -2,13 +2,15 @@ import React, { FC, useState } from "react";
 import { TextInput, StyleSheet, View, Text } from "react-native";
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
-import { EvilIcons } from "@expo/vector-icons";
+import { EvilIcons, AntDesign } from "@expo/vector-icons";
+import useBuscadorContext from "../hooks/useBuscadorContext";
 
 export interface BuscadorProps {
   filtrar: (text: string) => number; //función de filtro externa
 }
 
 const BuscadorRecetas: FC<BuscadorProps> = ({ filtrar }) => {
+  const { toogle } = useBuscadorContext();
   const [cantResultados, setCantResultados] = useState<number>();
   //estilizar el componente de acuerdo al tema del app
   const tema = useColorScheme();
@@ -18,15 +20,26 @@ const BuscadorRecetas: FC<BuscadorProps> = ({ filtrar }) => {
     const numResultados = filtrar(texto);
     setCantResultados(numResultados);
   };
+  const reset = () => {
+    handleFiltro("");
+    toogle();
+  };
   return (
     <View style={styles.container}>
       <View style={styles.inputContainer}>
         <EvilIcons style={styles.icon} name="search" size={24} color="black" />
         <TextInput
+          autoFocus
           selectionColor={colorPrincipal}
           style={styles.input}
           placeholder="Busca una receta"
           onChangeText={(text) => handleFiltro(text)}
+        />
+        <EvilIcons
+          onPress={reset}
+          name="close-o"
+          size={24}
+          style={styles.icon}
         />
       </View>
 

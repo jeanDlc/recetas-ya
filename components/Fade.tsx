@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, FC } from "react";
-import { Animated } from "react-native";
+import { Animated, Dimensions, View } from "react-native";
 export interface FadeProps {
   duracion: number; //ms que durará la animación
   condicion: boolean; // se muestra o no
@@ -30,7 +30,9 @@ const Fade: FC<FadeProps> = ({ duracion, condicion, children }) => {
     }
   }, [condicion]);
   return (
-    <Animated.View style={{ opacity: fadeAnim }}>{children}</Animated.View>
+    <View style={{ backgroundColor: "white" }}>
+      <Animated.View style={{ opacity: fadeAnim }}>{children}</Animated.View>
+    </View>
   );
 };
 

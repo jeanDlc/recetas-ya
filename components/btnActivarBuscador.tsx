@@ -10,13 +10,10 @@ const BtnActivarBuscador: FC = () => {
   const { toogle, activo } = useBuscadorContext();
   const tema = useColorScheme();
   const colorPrincipal = Colors[tema].tint;
+  if (activo) return null;
   return (
     <TouchableOpacity onPress={toogle} style={defStyles.btn}>
-      {activo ? (
-        <AntDesign name="close" size={24} color={colorPrincipal} />
-      ) : (
-        <FontAwesome name="search" size={24} color={colorPrincipal} />
-      )}
+      <FontAwesome name="search" size={24} color={colorPrincipal} />
     </TouchableOpacity>
   );
 };
