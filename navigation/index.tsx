@@ -28,6 +28,7 @@ import {
   RootTabScreenProps,
 } from "../types";
 import LinkingConfiguration from "./LinkingConfiguration";
+import BtnActivarBuscador from "../components/btnActivarBuscador";
 
 export default function Navigation({
   colorScheme,
@@ -145,6 +146,7 @@ function BottomTabNavigator() {
             color: Colors[colorScheme].text,
             fontWeight: "bold",
           },
+          headerRight: () => <BtnActivarBuscador />,
         }}
       />
     </BottomTab.Navigator>
